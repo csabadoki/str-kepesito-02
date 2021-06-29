@@ -17,11 +17,7 @@ function listMyBooks(bookList) {
     })
     booklistHolder.innerHTML = innerContent;
     configStyle();
-
-
-    
 }
-
 
 function configStyle() {
     const sectionElement = document.querySelector('section');

@@ -1,0 +1,25 @@
+@use 'mixin';
+
+.table-section {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+    th, #get-button {
+        @include mixin.book-background-style
+    }
+    
+    th, td, #get-button {
+        @include mixin.set-text
+    }
+    
+    #read-button {
+        @include mixin.read-style
+    }
+
+    thead, tr {
+        background-color: rgb(226, 78, 27);
+    }
+
+}
+

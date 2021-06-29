@@ -10,7 +10,7 @@ align-items: center;
     }
     
     th, td, #get-button {
-        @include mixin.set-text
+        @include mixin.set-text-style
     }
     
     #read-button {

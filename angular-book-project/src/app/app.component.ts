@@ -18,6 +18,7 @@ export class AppComponent {
 
   constructor(){}
 
-  changeBook(){}
-  
+  changeBook(title:string){
+    this.actualBook = this.bookList.find(item => item.title === title)
+  }
 }

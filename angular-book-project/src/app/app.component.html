@@ -2,6 +2,6 @@
 <app-book-list></app-book-list>
 
 <section>
-    <button id="change-button">Change Book</button>
-    <app-book-details></app-book-details>
+    <button id="change-button" (click)="changeBook(book.title)">Change Book</button>
+    <app-book-details [chosenBook]="actualBook"></app-book-details>
 </section>
